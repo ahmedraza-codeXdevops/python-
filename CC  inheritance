@@ -1,0 +1,11 @@
+class parents
+  def show (self):
+    print("This is parents class")
+
+class child
+  def display (self):
+    print("This is child class")
+
+obj=child()
+obj.show()
+obj.display()
